@@ -1,0 +1,15 @@
+[tool.poetry]
+name = ""
+package-mode = false
+description = ""
+authors = ["Xinyang Chen <chenxinyang99@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.11, <4"
+ipython = "^8.17.2"
+pip = "^23.3.1"
+
+qiskit = { version = "^1.2.0", extras = ["visualization"] }
+qiskit-aer-gpu = "^0.15.0"
+
+axprof = { git = "https://github.com/Alan-Chen99/AxProf.git" }
