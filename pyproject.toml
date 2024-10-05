@@ -13,3 +13,6 @@ qiskit = { version = "^1.2.0", extras = ["visualization"] }
 qiskit-aer-gpu = "^0.15.0"
 
 axprof = { git = "https://github.com/Alan-Chen99/AxProf.git" }
+
+[tool.isort]
+profile = "black"

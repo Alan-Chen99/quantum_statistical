@@ -8,7 +8,7 @@ from axprof import AxProf
 spec = """
 Input list of real;
 Output real;
-ACC Probability over runs [ Output ] == 0.5
+ACC Probability over runs [ Output == 1 ] == 0.5
 """
 from qiskit import QuantumCircuit, transpile
 from qiskit_aer import AerSimulator
