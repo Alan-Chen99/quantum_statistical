@@ -21,7 +21,7 @@ def main():
     simulator = AerSimulator(method="statevector", device="GPU")
     # Aer
     circ = transpile(qc, simulator)
-    res = simulator.run(circ, shots=1000).result().get_counts(qc)
+    res = simulator.run(circ, shots=10000).result().get_counts(qc)
 
     res = {int(x.split(" ")[1], 2): y for x, y in res.items()}
 
